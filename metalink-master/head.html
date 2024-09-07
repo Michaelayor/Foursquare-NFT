@@ -1,0 +1,96 @@
+<header x-data="
+        {
+          navbarOpen: false,
+          submenuOpen: false
+        }
+      " class="header a1 a2 a3 a4 a5 a6 a7 a8 a9" :class="scrolledFromTop ? 'a9 aa ab ac ad' : ' a9' ">
+<div class="ae">
+<div class="af ag[-16px] a3 a5 ah">
+<div class="ai aj ak">
+<a href="index" class="header-logo al a4 ao lg:ap" :class="scrolledFromTop ? 'am lg:an' : 'ao lg:ap' ">
+<h3 style="color:azure;font-size:23px;font-weight:600">
+<img src="#" alt="" class="aq" style="display:inline !important;">NFTGlobe
+</h3>
+</a>
+</div>
+<div class="a3 a4 a5 ah ak">
+<div>
+<button @click="navbarOpen = !navbarOpen " :class="navbarOpen &amp;&amp; 'navbarTogglerActive' " id="navbarToggler" name="navbarToggler" aria-label="navbarToggler" class="ar as at/2 al au[-50%] av aw ax[6px] ay focus:az lg:aA" data-bs-toggle="offcanvas" data-bs-target="#demo">
+<span :class="navbarOpen &amp;&amp; 'aB aC aD[7px]' " class="af aE[6px] al aF[2px] aG[30px] aH"></span>
+<span :class="navbarOpen &amp;&amp; 'aI' " class="af aE[6px] al aF[2px] aG[30px] aH"></span>
+<span :class="navbarOpen &amp;&amp; 'aD[-8px] aJ[135deg]' " class="af aE[6px] al aF[2px] aG[30px] aH"></span>
+</button>
+<nav :class="!navbarOpen &amp;&amp; 'aA' " id="navbarCollapse" class="ar as aK a4 aL[250px] av aM aN lg:aO lg:al lg:a4 lg:aj lg:a6 aP lg:aQ lg:ak lg:aR xl:aS aA">
+<ul class="aT lg:a3">
+<li class="aU af">
+<a href="https://nftglobeart.com" class="aV a3 an aW aX aZ group-hover:aZ lg:a_ lg:a10 lg:a11 lg:a12">
+Home
+</a>
+</li>
+<li class="aU af">
+<a href="explore" class="aV a3 an aW aX aY[#bababa] group-hover:aZ lg:a_ lg:a13 lg:a10 lg:a11 lg:a12 xl:a14">
+Explore
+</a>
+</li>
+<li class="aU af">
+<a href="https://t.me/+beZu6Xvy4gRkMzg8" target="_blank" rel="nofollow" class="aV a3 an aW aX aY[#bababa] group-hover:aZ lg:a_ lg:a13 lg:a10 lg:a11 lg:a12 xl:a14">
+Community
+</a>
+</li>
+<li class="aU submenu-item af">
+<a href="javascript:void(0)" @click="submenuOpen = !submenuOpen" class="af aV a3 an aW aX aY[#bababa] after:ar after:a15 after:at/2 after:a16[-2px] after:a17 after:a18 after:au[-50%] after:aC after:a19 after:a1a after:a1b group-hover:aZ lg:a_ lg:a13 lg:a10 lg:a11 lg:a1c lg:a1d lg:after:a1e xl:a14">
+Pages
+</a>
+<div :class="submenuOpen ? 'al' : 'aA' " class="submenu af aK a2 aG[250px] a1f aa a1g a1h[top] a1i group-hover:a1j lg:a1k lg:ar lg:aD[110%] lg:al lg:aI lg:aN lg:group-hover:a1l lg:group-hover:aK aA">
+
+
+<a href="mailto:info@nftglobeart.com" class="al a1m ax[10px] ak a1n a1o aY[#bababa] hover:aZ">
+Support
+</a>
+<a href="login" class="al a1m ax[10px] ak a1n a1o aY[#bababa] hover:aZ">
+Login
+</a>
+<a href="register" class="al a1m ax[10px] ak a1n a1o aY[#bababa] hover:aZ">
+Register
+</a>
+</div>
+</li>
+<li class="aU af">
+<a href="mailto:info@nftglobeart.com" class="aV a3 an aW aX aY[#bababa] group-hover:aZ lg:a_ lg:a13 lg:a10 lg:a11 lg:a12 xl:a14">
+Support
+</a>
+</li>
+</ul>
+</nav>
+</div>
+<div class="aA a1p a1q sm:a3 lg:a1r">
+<div class="aU af aA md:a3">
+<button class="aP a1s aW aX a1t a7 hover:a1u lg:ak xl:a1s" name="search" aria-label="search">
+<svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M10.2917 3.25C12.1592 3.25 13.9503 3.99189 15.2709 5.31246C16.5914 6.63303 17.3333 8.4241 17.3333 10.2917C17.3333 12.0358 16.6942 13.6392 15.6433 14.8742L15.9358 15.1667H16.7917L22.2083 20.5833L20.5833 22.2083L15.1667 16.7917V15.9358L14.8742 15.6433C13.6392 16.6942 12.0358 17.3333 10.2917 17.3333C8.4241 17.3333 6.63303 16.5914 5.31246 15.2709C3.99189 13.9503 3.25 12.1592 3.25 10.2917C3.25 8.4241 3.99189 6.63303 5.31246 5.31246C6.63303 3.99189 8.4241 3.25 10.2917 3.25ZM10.2917 5.41667C7.58333 5.41667 5.41667 7.58333 5.41667 10.2917C5.41667 13 7.58333 15.1667 10.2917 15.1667C13 15.1667 15.1667 13 15.1667 10.2917C15.1667 7.58333 13 5.41667 10.2917 5.41667Z" fill="currentColor"></path>
+</svg>
+</button>
+<div class="a1k ar aD[110%] a1e aG[250px] a1f aa a1v aI a1w group-hover:a1l group-hover:aK group-hover:a1j">
+<form class="a3">
+<input type="text" placeholder="Search here..." class="a4 a6 an ak aZ a1x">
+<button class="aZ" name="search-button" aria-label="search-button">
+<svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M10.2917 3.25C12.1592 3.25 13.9503 3.99189 15.2709 5.31246C16.5914 6.63303 17.3333 8.4241 17.3333 10.2917C17.3333 12.0358 16.6942 13.6392 15.6433 14.8742L15.9358 15.1667H16.7917L22.2083 20.5833L20.5833 22.2083L15.1667 16.7917V15.9358L14.8742 15.6433C13.6392 16.6942 12.0358 17.3333 10.2917 17.3333C8.4241 17.3333 6.63303 16.5914 5.31246 15.2709C3.99189 13.9503 3.25 12.1592 3.25 10.2917C3.25 8.4241 3.99189 6.63303 5.31246 5.31246C6.63303 3.99189 8.4241 3.25 10.2917 3.25ZM10.2917 5.41667C7.58333 5.41667 5.41667 7.58333 5.41667 10.2917C5.41667 13 7.58333 15.1667 10.2917 15.1667C13 15.1667 15.1667 13 15.1667 10.2917C15.1667 7.58333 13 5.41667 10.2917 5.41667Z" fill="currentColor"></path>
+</svg>
+</button>
+</form>
+</div>
+</div>
+<a href="login" class="a3 a5 a1f a1y a1z aP aS aW aX aZ a7 a1i a1A hover:a1B hover:a1C lg:ak xl:aS">
+<span class="a1D">
+<svg width="23" height="24" viewBox="0 0 23 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M20.125 17.75V18.7083C20.125 19.2167 19.9231 19.7042 19.5636 20.0636C19.2042 20.4231 18.7167 20.625 18.2083 20.625H4.79167C3.72792 20.625 2.875 19.7625 2.875 18.7083V5.29167C2.875 4.78333 3.07693 4.29582 3.43638 3.93638C3.79582 3.57693 4.28334 3.375 4.79167 3.375H18.2083C18.7167 3.375 19.2042 3.57693 19.5636 3.93638C19.9231 4.29582 20.125 4.78333 20.125 5.29167V6.25H11.5C10.4363 6.25 9.58333 7.1125 9.58333 8.16667V15.8333C9.58333 16.3417 9.78527 16.8292 10.1447 17.1886C10.5042 17.5481 10.9917 17.75 11.5 17.75H20.125ZM11.5 15.8333H21.0833V8.16667H11.5V15.8333ZM15.3333 13.4375C14.9521 13.4375 14.5865 13.286 14.3169 13.0165C14.0473 12.7469 13.8958 12.3812 13.8958 12C13.8958 11.6188 14.0473 11.2531 14.3169 10.9835C14.5865 10.714 14.9521 10.5625 15.3333 10.5625C15.7146 10.5625 16.0802 10.714 16.3498 10.9835C16.6194 11.2531 16.7708 11.6188 16.7708 12C16.7708 12.3812 16.6194 12.7469 16.3498 13.0165C16.0802 13.286 15.7146 13.4375 15.3333 13.4375Z" fill="white"></path>
+</svg>
+</span>
+Login
+</a>
+</div>
+</div>
+</div>
+</div>
+</header>

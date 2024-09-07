@@ -1,0 +1,518 @@
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+ <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+ <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FoursqaureNFT</title>
+<link rel="shortcut icon" href="./assets/images/Asset 2.png" type="image/svg+xml">
+
+<link rel="stylesheet" href="./home_files/animate.css">
+<link rel="stylesheet" href="./home_files/tiny-slider.css">
+<link rel="stylesheet" href="./home_files/tailwind.css">
+<script src="./home_files/wow.min.js.download"></script>
+<script>
+      // ===== wow js
+      new WOW().init();
+    </script>
+<style></style><style type="text/css">@font-face { font-family: Roboto; src: url("chrome-extension://mcgbeeipkmelnpldkobichboakdfaeon/css/Roboto-Regular.ttf"); }</style><style type="text/css">
+.layout-menu-fixed .layout-navbar-full .layout-menu,
+.layout-page {
+  padding-top: 0px !important;
+}
+.content-wrapper {
+  padding-bottom: 0px !important;
+}</style></head>
+<body class="a0" x-data="
+      {
+        scrolledFromTop: false
+      }
+    " x-init="window.pageYOffset >= 50 ? scrolledFromTop = true : scrolledFromTop = false" @scroll.window="window.pageYOffset >= 50 ? scrolledFromTop = true : scrolledFromTop = false" data-new-gr-c-s-check-loaded="14.1091.0" data-gr-ext-installed="">
+
+
+
+
+<div class="offcanvas offcanvas-start bg-dark text-white" id="demo">
+<div class="offcanvas-header mb-4">
+     
+    <button type="button" class="float-end close-btn btn-dark text-white" data-bs-dismiss="offcanvas">×</button>
+  </div>
+  <div class="offcanvas-body p-3 mt-4">
+    <li class="menu-item"><a href="index">Home</a></li>
+    <li class="menu-item"><a href="explore">Explore</a></li>
+    <li class="menu-item"><a href="https://t.me/+beZu6Xvy4gRkMzg8">Community</a></li>
+    <li class="menu-item"><a href="login">Login</a></li>
+    <li class="menu-item"><a href="mailto:info@foursquarenft.com">Support</a></li>
+  </div>
+</div>
+<style>
+    .menu-item{
+        list-style-type:none;
+        font-size:23px;
+        margin-bottom:10px;
+    }
+    .close-btn{
+        font-size:36px;
+    }
+</style>
+
+  
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+
+    <title>FoursqaureNFT - Dashboard</title>
+
+    <meta name="description" content="">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="https://nft-tailwind.preview.uideck.com/images/favicon.png">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+    <!-- Icons. Uncomment required icon fonts -->
+    <link rel="stylesheet" href="./dashboard/vendor/fonts/boxicons/boxicons.css">
+
+    <!-- Core CSS -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./core.css" class="template-customizer-core-css">
+    <link rel="stylesheet" href="./dashboard/vendor/css/theme-default.css" class="template-customizer-theme-css">
+    <link rel="stylesheet" href="./dashboard/assets/css/demo.css">
+    <link rel="stylesheet" href="../metalink-master/assets/css/foot.css">
+    
+
+    <!-- Vendors CSS -->
+    <link rel="stylesheet" href="./assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <!-- Page CSS -->
+
+    <!-- Helpers -->
+    <script src="./dashboard/vendor/js/helpers.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+    <!--! Template customizer & Theme config files MUST be included after core stylesheets and helpers.js in the <head> section -->
+    <!--? Config:  Mandatory theme config file contain global vars & default theme options, Set your preferred theme option in this file.  -->
+    <script src="./home_files/config.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.12.1/js/dataTables.bootstrap5.min.js"></script>
+  
+
+  
+    <!-- Layout wrapper -->
+    <div class="row d-md-none">
+      <div class="mx-auto">
+      <center>
+      <!--<img src="https://nft-tailwind.preview.uideck.com/images/favicon.png" style="width:130px;"/>-->
+      </center>
+      </div>
+         
+      </div>
+    <div class="wrapper">
+    
+      <div style="margin-top:150px;">
+        <!-- Menu -->
+       
+        
+
+          <!-- / Navbar -->
+
+          <!-- Content wrapper -->
+          <div class="content-wrapper">
+            <!-- Content -->
+
+            <div class="container-fluid flex-grow-1 container-p-y">
+              <style>
+                .card{
+                  background:  #191919;
+                }
+                .btn-primary{
+                  background-color: #696cff !important;
+                  border-color: #696cff !important;
+                }
+                .bg-primary,.app-brand .layout-menu-toggle{
+                  background: #696cff !important;
+                }
+                .btn{
+                  box-shadow :none !important;
+                }
+                html,body{
+                  overflow-x: hidden;
+                  background-color:#050505;
+                }
+                h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1{
+                  color:#fff;
+                }
+                .table:not(.table-dark) th {
+                  color: #fff;
+                }
+                .custom-dark{
+                  background:#191919 !important;
+                  color:#fff !important;
+                }
+                .menu-link{
+                  color:azure !important;
+                }
+                .form-label{
+                  color:#fff;
+                }
+                input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus, textarea:-webkit-autofill, textarea:-webkit-autofill:hover, textarea:-webkit-autofill:focus, select:-webkit-autofill, select:-webkit-autofill:hover, select:-webkit-autofill:focus, input:-internal-autofill-selected {
+    background-clip: text !important;
+    -webkit-background-clip: border-box !important;
+}
+              </style>
+
+
+       
+        
+<div class="container-xxl light-bg">
+      <div class="authentication-wrapper authentication-basic container-p-y">
+        <div class="authentication-inner">
+          <!-- Register Card -->
+          <div class="col col-lg-4 mx-auto my-4">
+          <div class="card">
+            <div class="card-body">
+              <!-- Logo -->
+              <div class="app-brand justify-content-center">
+                <a href="index" class="app-brand-link gap-2">
+                   
+                  
+                </a>
+              </div>
+              <!-- /Logo -->
+              
+
+              <form id="formAuthentication" class="mb-3" method="POST">
+                <div class="mb-3">
+                  <label for="email" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="email" name="email" value="" placeholder="email" required="">
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label">Username</label>
+                  <input type="text" class="form-control" id="uname" name="uname" value="" placeholder="Username" required="">
+                </div>
+                <div class="mb-3">
+                  <label for="password" class="form-label">Password</label>
+                  <input type="password" class="form-control" id="password" name="password" placeholder="Password" required="">
+                </div>
+                <div class="mb-3">
+                  <label for="password" class="form-label">Confirm Password</label>
+                  <input type="password" class="form-control" id="cpassword" name="cpassword" placeholder="Repeat Password" required="">
+                </div>
+                
+
+                
+                <a type="button" class="btn btn-primary d-grid w-100" href="./dashboard.html">
+                  Continue
+                   </a>
+                
+              </form>
+
+              <p>
+                <span class="uk-text-small float-end">Have an account?  <a class="uk-button uk-button-text" href="./newlogin.html">Login</a></span>               
+              </p>
+            </div>
+          </div>
+          </div>
+          <!-- Register Card -->
+        </div>
+      </div>
+    </div>
+     
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+
+    <div class="section footer-top">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="#">
+            <img src="./assets/images/Asset 3.png" width="250" height="100" loading="lazy" alt="FoursqaureNFT home">
+          </a>
+
+          <p class="body-md footer-text">
+            Buy, sell and discover exclusive digital assets by the top artists of NFTs world.
+          </p>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="title-lg footer-list-title">FoursqaureNFT</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <ion-icon name="chevron-forward"></ion-icon>
+
+              <span class="span">Explore Item</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <ion-icon name="chevron-forward"></ion-icon>
+
+              <span class="span">Live Auction</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <ion-icon name="chevron-forward"></ion-icon>
+
+              <span class="span">Activities</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <ion-icon name="chevron-forward"></ion-icon>
+
+              <span class="span">Wallets</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <ion-icon name="chevron-forward"></ion-icon>
+
+              <span class="span">Creators</span>
+            </a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="title-lg footer-list-title">Useful Links</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <ion-icon name="chevron-forward"></ion-icon>
+
+              <span class="span">About Us</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <ion-icon name="chevron-forward"></ion-icon>
+
+              <span class="span">Blog & News</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <ion-icon name="chevron-forward"></ion-icon>
+
+              <span class="span">Terms & Condition</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <ion-icon name="chevron-forward"></ion-icon>
+
+              <span class="span">Privacy policy</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <ion-icon name="chevron-forward"></ion-icon>
+
+              <span class="span">Login</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <ion-icon name="chevron-forward"></ion-icon>
+
+              <span class="span">Contact Us</span>
+            </a>
+          </li>
+
+        </ul>
+
+        <div class="footer-list">
+
+          <ul>
+
+            <li>
+              <p class="title-lg footer-list-title">Download the FoursqaureNFT app</p>
+            </li>
+
+            <li class="footer-list-item">
+              <a href="#">
+                <img src="./assets/images/appstore.png" width="134" height="40" loading="lazy"
+                  alt="Download FoursqaureNFT app from AppStore">
+              </a>
+
+              <a href="#">
+                <img src="./assets/images/playstore.png" width="134" height="40" loading="lazy"
+                  alt="Download FoursqaureNFT app from PlayStore">
+              </a>
+            </li>
+
+          </ul>
+
+          <ul>
+
+            <li>
+              <p class="title-lg footer-list-title">Contact Details</p>
+            </li>
+
+            <li class="footer-list-item">
+              <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+
+              <a href="mailto:contact@foursquarenft.com" class="footer-link">Foursqaurenft.com</a>
+            </li>
+
+            <li class="footer-list-item">
+              <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+
+              <a href="tel:+111 234-567-891" class="footer-link">+111 234-567-891</a>
+            </li>
+
+          </ul>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="body-md text-center copyright">
+          <span class="span"> ©</span>  Copyright 2022 - FoursqaureNFT, All rights reserved.
+        </p>
+
+      </div>
+    </div>
+
+  </footer>
+
+<script src="./home_files/tiny-slider.js.download"></script>
+<script>
+      //======== tiny slider for clients
+      tns({
+        container: ".artists-slider",
+        autoplay: true,
+        autoplayTimeout: 5000,
+        autoplayButtonOutput: false,
+        mouseDrag: true,
+        gutter: 1,
+        nav: true,
+        navPosition: "bottom",
+        controls: false,
+        controlsText: [
+          '<svg width="14" height="11" viewBox="0 0 14 11" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M5.00001 0.0600594L5.00001 4.06006L13.92 4.06006L13.95 6.07006L5.00001 6.07006L5.00001 10.0601L1.19607e-05 5.06006L5.00001 0.0600594Z" fill="white"/></svg>',
+          '<svg width="14" height="11" viewBox="0 0 14 11" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M8.99999 10.9399V6.93994H0.0799875L0.0499878 4.92994H8.99999V0.939941L14 5.93994L8.99999 10.9399Z" fill="white"/> </svg>',
+        ],
+        items: 1,
+        responsive: {
+          540: {
+            controls: true,
+            nav: false,
+          },
+          768: {
+            items: 2,
+          },
+          992: {
+            items: 3,
+          },
+          1140: {
+            items: 4,
+          },
+        },
+      });
+    </script>
+
+
+<script>
+		var returnedSuggestion = ''
+		let editor, doc, cursor, line, pos
+		document.addEventListener("keydown", (event) => {
+		setTimeout(()=>{
+			editor = event.target.closest('.CodeMirror');
+			if (editor){
+				doc = editor.CodeMirror.getDoc()
+				cursor = doc.getCursor()
+				line = doc.getLine(cursor.line)
+				pos = {line: cursor.line, ch: line.length}
+				if (event.key == "Enter"){
+					var query = doc.getRange({ line: Math.max(0,cursor.line-10), ch: 0 }, { line: cursor.line, ch: 0 })
+					window.postMessage({source: 'getSuggestion', payload: { data: query } } )
+					//displayGrey(query)
+				}
+				else if (event.key == "ArrowRight"){
+					acceptTab(returnedSuggestion)
+				}
+			}
+		}, 0)
+		})
+
+		function acceptTab(text){
+		if (suggestionDisplayed){
+			doc.replaceRange(text, pos)
+			suggestionDisplayed = false
+		}
+		}
+		function displayGrey(text){
+		var element = document.createElement('span')
+		element.innerText = text
+		element.style = 'color:grey'
+		var lineIndex = pos.line;
+		editor.getElementsByClassName('CodeMirror-line')[lineIndex].appendChild(element)
+		suggestionDisplayed = true
+		}
+		window.addEventListener('message', (event)=>{
+		if (event.source !== window ) return
+		if (event.data.source == 'return'){
+			returnedSuggestion = event.data.payload.data
+			displayGrey(event.data.payload.data)
+		}
+		})
+	</script>
+	
+	<script>
+    function copyLink(id){
+        var link=`https://algromint.com/dashboard/art?item=${id}`
+        $("#hidden").val(link);
+        var copyText = document.getElementById("hidden");
+
+  /* Select the text field */
+  copyText.select();
+  copyText.setSelectionRange(0, 99999); /* For mobile devices */
+
+   /* Copy the text inside the text field */
+  navigator.clipboard.writeText(copyText.value);
+
+  /* Alert the copied text */
+  swal("Copied","link copied to clipboard","success");
+    }
+</script>
+	
